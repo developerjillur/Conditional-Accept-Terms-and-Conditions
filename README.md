@@ -1,7 +1,7 @@
 # Conditional-Accept-Terms-and-Conditions
 A Conditional Accept Terms and Conditions Checkbox, if checkbox is selected submit button will enable and if don't checked submit button will disable 
 
-# Here is he code
+# Here is the code
 
 	<input type="checkbox" id="ctaggery" checked="checked"> 
 	<label for="ctaggery">I Accept Terms and Conditions</label>
