@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+
+	<input type="checkbox" id="ctaggery" checked="checked"> 
+	<label for="ctaggery">I Accept Terms and Conditions</label>
+	<br>
+
+	<button id="ctSubmitbtn" class="ct-register-btn">Register</button>
+
+	<script type="text/javascript">
+		$('#ctaggery').change(function(){
+		  if($(this).is(":not(:checked)")){
+		    $('.ct-register-btn').attr("disabled","disabled");
+		  } else if($(this).is(":checked")){
+		    $('.ct-register-btn').removeAttr("disabled");
+		  }
+		});
+	</script>
+
+</body>
+</html>
